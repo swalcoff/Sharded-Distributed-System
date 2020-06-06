@@ -1,0 +1,19 @@
+Assignment 4 - Mechanism Description
+------------
+
+Sharding
+--
+We made an important hash algo to determine where a key gets sent to by using the shard count to uniformly distribute the keys
+We used a global array to keep track of the members of each shard
+If a request is made to the incorrect shard, it is forwarded to the correct one
+
+Resharding
+--
+Determine if requested shard count is valid (checking nodes on view and check possible length)
+If valid, we try to redistiubte the nodes amoung the shards (by broadcasting to the first node in each shard)
+Then we detmine if a key belongs in the new shard: if it doent we send a PUT to the correct shard and delete it locally
+
+Adding new members
+--
+The first node that recives the request adds to its own view then broadcasts to other nodes
+with other information about whether it came form a client or a node, the global shards, and the shard count

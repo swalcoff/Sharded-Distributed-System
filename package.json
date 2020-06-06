@@ -1,0 +1,33 @@
+{
+  "name": "cse138_assignment2",
+  "version": "1.0.0",
+  "description": "Two REST APIs, one named main that holds a key-value store and another named forwarding that forwards requests to main",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "form-data": "^3.0.0",
+    "node-fetch": "^2.6.0",
+    "wait-until": "0.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swalcoff/CSE138_Assignment2.git"
+  },
+  "keywords": [
+    "REST",
+    "API",
+    "key-value",
+    "store"
+  ],
+  "author": "Samuel Walcoff, John Nover, Joseph Csoti, Kevin Carella",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swalcoff/CSE138_Assignment2/issues"
+  },
+  "homepage": "https://github.com/swalcoff/CSE138_Assignment2#readme"
+}

@@ -1,0 +1,11 @@
+# Bad folders
+node_modules
+.git
+
+# Testing
+test_assignment3.py
+
+# Meta Files
+members.txt
+contribution-notes.txt
+spec_doc.pdf

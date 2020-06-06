@@ -1,0 +1,17 @@
+Samuel Walcoff
+---
+Wrote code for getting the members of a shard with a given ID and getting the number of keys stored in a shard.
+Collaboratively designed and wrote the resharding key-val store code. Collaboratively modified Key-Value
+operations and causal consistency to work in a sharded system.
+
+John Nover
+---
+Worked on testing and debugging of resharding, sharding, and adding new nodes. Helped design the mechanisms for them as well.
+
+Joseph Csoti
+---
+I worked on debuging, impossible sharding and helped solve some duplicate node errors when resharding
+
+Kevin Arellano
+---
+testing
