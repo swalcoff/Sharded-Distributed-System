@@ -1,4 +1,4 @@
-# CSE138_Assignment4
+# Sharded Distributed System
 A sharded, fault-tolerant key-value store, with better fault tolerance, capacity, and throughput than a single-site key-value store can offer.
 # How to Run:
 Run docker desktop and make sure it is working by running:
