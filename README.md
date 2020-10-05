@@ -9,7 +9,7 @@ If "OK" is printed at the end of the test, you are all set to run your own tests
 ```
 python3 tests/dockerRun.py
 ```
-to run 6 nodes in 2 shards. You chose which replicas to run in dockerRun.py and you can add replicas if you'd like. You can also change the shard count in dockerRun.py. Be sure to stop and remove instances and the subnet before you exit out.
+to run 6 nodes partitioned into 2 shards. You chose which replicas to run in dockerRun.py and you can add replicas if you'd like. You can also change the shard count in dockerRun.py. Be sure to stop and remove instances and the subnet before you exit out.
 # Endpoints
 1. /key-value-store/:key
   - Send PUT, GET, and DELETE requests on the key-value store
